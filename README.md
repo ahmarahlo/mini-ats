@@ -56,30 +56,3 @@ src/
 │   ├── page-transition.tsx       # State loading custom & efek fade-in
 │   └── ui/                       # Auto-generated Shadcn UI components
 ```
-
----
-
-## 🚀 Cara Menjalankan Lokal
-
-1. Instalasi dependensi:
-   ```bash
-   npm install
-   ```
-2. Jalankan development server:
-   ```bash
-   npm run dev
-   ```
-3. Buka [http://localhost:3000](http://localhost:3000) di browser. Gunakan kredensial apa saja di halaman login.
-
----
-
-## ☁️ Deployment ke Vercel
-
-Proyek ini sepenuhnya kompatibel dan dioptimasi untuk Vercel.
-
-1. Simpan dan unggah proyek ini ke **GitHub** milik Anda.
-2. Login ke akun [Vercel](https://vercel.com).
-3. Klik **"Add New..."** > **"Project"**.
-4. Impor repositori GitHub `mini-ats-dashboard` ini.
-5. Biarkan semua pengaturan dalam kondisi *default* (Framework Preset akan otomatis mendeteksi Next.js).
-6. Klik **"Deploy"**. Tunggu 1-2 menit, dan aplikasi ATS Anda akan *live*!
