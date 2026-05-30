@@ -9,7 +9,7 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
   const [isPending, setIsPending] = useState(true);
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsPending(true);
     const timeout = setTimeout(() => {
       setIsPending(false);
