@@ -41,11 +41,10 @@ Aplikasi web Applicant Tracking System (ATS) modern yang dibangun sebagai *proje
 src/
 ├── app/
 │   ├── layout.tsx                # Root layout (Font, global CSS)
-│   ├── page.tsx                  # Root redirect (saat ini Dashboard root)
 │   ├── login/page.tsx            # Halaman Login
 │   └── (dashboard)/              # Route Group untuk halaman dengan Sidebar
 │       ├── layout.tsx            # AppLayout Wrapper & PageTransition
-│       ├── page.tsx              # Dashboard Summary Cards
+│       ├── page.tsx              # Dashboard Summary Cards (Root /)
 │       ├── jobs/                 # Daftar Pekerjaan
 │       ├── candidates/           # Kanban Board Kandidat
 │       ├── settings/             # (Mock) Halaman Pengaturan
